@@ -1,0 +1,42 @@
+@font-face {
+	font-family: outlinedImpact;
+	src: url(outlinedImpact.ttf);
+}
+#clock {
+	position: absolute;
+	color:rgb(255, 255, 255);
+	font-family: outlinedImpact;
+	font-size: 42vw;
+	text-align: center;	
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+#btn1 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	width: 30%;
+}
+#btn2{
+	position: absolute;
+	top: 0%;
+	right: 0%;	
+	height: 100%;
+	width: 30%;
+}
+#btn3{
+	position: absolute;
+	top: 0%;
+	left: 30%;
+	height: 50%;	
+	width: 40%;
+}
+#btn4 {
+	position: absolute;
+	bottom: 0%;	
+	left: 30%;
+	height: 50%;		
+	width: 40%;
+}
